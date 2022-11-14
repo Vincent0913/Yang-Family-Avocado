@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 :root
 {
     overflow-x: hidden;
@@ -167,7 +166,10 @@ li a
 .product-title
 {
     background-color:beige;
-    padding: 4px 0;
+    font-size: 25px;
+    padding: 4px 5px;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 .title {
