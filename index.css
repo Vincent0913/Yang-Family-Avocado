@@ -127,6 +127,7 @@ li a
 .contact a img{
     background-color: rgba(11, 99, 17, 0.7);
     border-radius: 25px;
+    margin: 12px;
     width: 80px;
     height: auto;
     transition: all 1s ease-out;
