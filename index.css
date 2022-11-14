@@ -108,6 +108,30 @@ li a
     transition: .3s;
 }
 
+
+.contact{
+    position: relative;
+    transform: translateY(750px);
+    right: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    z-index: 75;
+}
+
+.contact :hover{
+   transform:scale(1.2,1.2);
+}
+
+.contact a img{
+    background-color: rgba(11, 99, 17, 0.7);
+    border-radius: 25px;
+    width: 80px;
+    height: auto;
+    transition: all 1s ease-out;
+}
+
 .product{
     margin: 10px;
 }
@@ -128,7 +152,6 @@ li a
 .photo{
     background-color: rgba(94, 172, 94, 0.579);
     overflow:hidden;
-    transform:scale(1,1);transition: all 1s ease-out;
     width: 100%;
     height: auto;
     border-radius: 30px;
@@ -136,7 +159,6 @@ li a
 }
 
 .photo img{
-    overflow:hidden;
     transform:scale(1,1);transition: all 1s ease-out;
     width: 35vw;
     height: auto;
