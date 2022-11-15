@@ -23,7 +23,7 @@ a:active{
 .subject{
     position: fixed;
     width: 100%;
-    height: 90vh;
+    height: 100%;
     background: url(./photo/grandma-1-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@ a:active{
     position: relative;
     background-color: #ffffff;
     padding-top: 20px;
-    transform: translateY(700px);
+    transform: translateY(600px);
 }
 
 article{
@@ -111,7 +111,7 @@ li a
 
 .contact{
     position: relative;
-    transform: translateY(750px);
+    transform: translateY(650px);
     right: 30px;
     width: 100%;
     height: auto;
