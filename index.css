@@ -76,20 +76,18 @@ nav {
 
 ul
 {
-    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0px 500px;
+    height: auto;
+    padding: 0 20vw;
 }
 
 li
-{
-    width: auto;
+{   
+    max-width: 100%;
     height: auto;
-    font-size: larger;
-    font-weight: bold;
     transition: .3s;
 }
 
@@ -102,6 +100,8 @@ li:hover{
 
 li a
 {
+    font-size: larger;
+    font-weight: bold;
     color:rgba(11, 93, 63, 0.66);
     text-align: center;
     text-decoration: none;
