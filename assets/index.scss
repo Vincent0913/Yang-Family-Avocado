@@ -15,7 +15,7 @@ $--white: #ffffff;
 }
 
 ::selection {
-    background: #469d7e; color: white;
+    background: #61ae93; color: white;
 }
 
 a:active{
@@ -72,7 +72,7 @@ nav {
 
 .contact{
     position: absolute;
-    top: 72vh;
+    top: 73vh;
     right: 30px;
     width: 100%;
     height: auto;
@@ -108,16 +108,72 @@ body{
     .sec1{
         @include section-settings(100%, 80vh, url(../photo/grandma-1-1.jpg)); 
     }
+
     .sec2{
+        width: 100%;
+        height: auto;
         background-color: $--white;
-        padding-top: 20px;
+        padding: 35px 30px 20px 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 6px groove rgba(118, 191, 166, 0.353);
+
+        article{
+            background-color: rgba(211, 224, 154, 0.55);
+            padding: 20px;
+            width: 70%;
+            height: 100%;
+            border-radius: 20px;
+            border: #8eb665 3px outset;
+            margin-right: 20px;
+
+            h2{
+                color: #669933;
+                padding-bottom: 10px;
+            }
+
+            p{
+                font-size: 20px;
+                font-weight: bold;
+                color: rgba(49, 131, 101, 0.855);
+                line-height: 180%;
+            }
+        }
+
+        .sec2-photo{
+            width: 50%;
+            height: auto;
+            img{
+                width: 100%;
+                height: auto;
+                border-radius: 20px;
+                border: #8eb665 3px outset;
+            }
+        }
+    }
+
+    .sec3{
+        @include section-settings(100%, 85vh, url(../photo/seedling.jpg)); 
+    }
+
+    .sec4{
+        background-color: $--white;
+        // padding-top: 5px;
 
         .main{
             width: 100%;
             height: auto;
-            padding: 30px 20px 25px 20px;
+            padding: 20px 20px 25px 20px;
             .title {
-                color: #669933
+                color: #669933;
+                padding-bottom: 15px;
+            }
+
+            p{
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 200%;
             }
         }
         
@@ -181,8 +237,16 @@ body{
         }
     }
 
-    .sec3{
-        @include section-settings(100%, 100vh, url(../photo/seedling.jpg)); 
+    .sec5{
+        footer{
+            background-color: wheat;
+            min-height: 100px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+        }
     }
 }
 

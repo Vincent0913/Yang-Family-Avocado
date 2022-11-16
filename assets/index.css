@@ -12,12 +12,12 @@
 }
 
 ::-moz-selection {
-  background: #469d7e;
+  background: #61ae93;
   color: white;
 }
 
 ::selection {
-  background: #469d7e;
+  background: #61ae93;
   color: white;
 }
 
@@ -75,7 +75,7 @@ nav ul li a {
 
 .contact {
   position: absolute;
-  top: 72vh;
+  top: 73vh;
   right: 30px;
   width: 100%;
   height: auto;
@@ -105,24 +105,77 @@ body .sec1 {
   background-position: center;
 }
 body .sec2 {
-  background-color: #ffffff;
-  padding-top: 20px;
-}
-body .sec2 .main {
   width: 100%;
   height: auto;
-  padding: 30px 20px 25px 20px;
-}
-body .sec2 .main .title {
-  color: #669933;
+  background-color: #ffffff;
+  padding: 35px 30px 20px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 6px groove rgba(118, 191, 166, 0.353);
 }
 body .sec2 article {
+  background-color: rgba(211, 224, 154, 0.55);
+  padding: 20px;
+  width: 70%;
+  height: 100%;
+  border-radius: 20px;
+  border: #8eb665 3px outset;
+  margin-right: 20px;
+}
+body .sec2 article h2 {
+  color: #669933;
+  padding-bottom: 10px;
+}
+body .sec2 article p {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(49, 131, 101, 0.855);
+  line-height: 180%;
+}
+body .sec2 .sec2-photo {
+  width: 50%;
+  height: auto;
+}
+body .sec2 .sec2-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: #8eb665 3px outset;
+}
+body .sec3 {
+  width: 100%;
+  height: 85vh;
+  background: url(../photo/seedling.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body .sec4 {
+  background-color: #ffffff;
+}
+body .sec4 .main {
+  width: 100%;
+  height: auto;
+  padding: 20px 20px 25px 20px;
+}
+body .sec4 .main .title {
+  color: #669933;
+  padding-bottom: 15px;
+}
+body .sec4 .main p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 200%;
+}
+body .sec4 article {
   padding: 30px;
 }
-body .sec2 article .product {
+body .sec4 article .product {
   margin: 10px;
 }
-body .sec2 article .product .product-introduce {
+body .sec4 article .product .product-introduce {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,7 +183,7 @@ body .sec2 article .product .product-introduce {
   width: 100%;
   border: 6px groove rgba(118, 191, 166, 0.353);
 }
-body .sec2 article .product .product-introduce .product-words {
+body .sec4 article .product .product-introduce .product-words {
   border-left: 6px solid rgba(39, 132, 142, 0.644);
   background-color: #ffffff;
   padding: 10px;
@@ -138,26 +191,26 @@ body .sec2 article .product .product-introduce .product-words {
   line-height: 200%;
   margin-left: 30px;
 }
-body .sec2 article .product .product-introduce .product-words .product-title {
+body .sec4 article .product .product-introduce .product-words .product-title {
   background-color: beige;
   font-size: 25px;
   padding: 4px 5px;
   margin-bottom: 10px;
   margin-top: 15px;
 }
-body .sec2 article .product .product-introduce .product-words .notation {
+body .sec4 article .product .product-introduce .product-words .notation {
   color: gray;
   font-weight: bold;
   text-decoration: underline;
 }
-body .sec2 article .product .photo {
+body .sec4 article .product .photo {
   background-color: rgba(94, 172, 94, 0.579);
   width: 100%;
   height: auto;
   border-radius: 30px;
   overflow: hidden;
 }
-body .sec2 article .product .photo img {
+body .sec4 article .product .photo img {
   transform: scale(1, 1);
   transition: all 1s ease-out;
   width: 35vw;
@@ -166,15 +219,15 @@ body .sec2 article .product .photo img {
   border-radius: 30px;
   transition: 0.3s;
 }
-body .sec2 article .product .photo img:hover {
+body .sec4 article .product .photo img:hover {
   transform: scale(1.2, 1.2);
 }
-body .sec3 {
-  width: 100%;
-  height: 100vh;
-  background: url(../photo/seedling.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
+body .sec5 footer {
+  background-color: wheat;
+  min-height: 100px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }/*# sourceMappingURL=index.css.map */
