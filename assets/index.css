@@ -102,6 +102,7 @@ body .sec1 {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
 }
 body .sec2 {
   background-color: #ffffff;
@@ -151,14 +152,10 @@ body .sec2 article .product .product-introduce .product-words .notation {
 }
 body .sec2 article .product .photo {
   background-color: rgba(94, 172, 94, 0.579);
-  overflow: hidden;
   width: 100%;
   height: auto;
   border-radius: 30px;
-  transition: 0.3s;
-}
-body .sec2 article .product .photo:hover {
-  transform: scale(1.2, 1.2);
+  overflow: hidden;
 }
 body .sec2 article .product .photo img {
   transform: scale(1, 1);
@@ -167,4 +164,17 @@ body .sec2 article .product .photo img {
   height: auto;
   padding: 6px;
   border-radius: 30px;
+  transition: 0.3s;
+}
+body .sec2 article .product .photo img:hover {
+  transform: scale(1.2, 1.2);
+}
+body .sec3 {
+  width: 100%;
+  height: 100vh;
+  background: url(../photo/seedling.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }/*# sourceMappingURL=index.css.map */

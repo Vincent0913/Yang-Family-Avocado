@@ -101,6 +101,7 @@ nav {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 body{
@@ -158,24 +159,30 @@ body{
                 
                 .photo{
                     background-color: rgba(94, 172, 94, 0.579);
-                    overflow: hidden;
                     width: 100%;
                     height: auto;
                     border-radius: 30px;
-                    transition: .3s;
-                    &:hover{
-                        transform:scale(1.2,1.2);
-                    }
+                    overflow: hidden;
+
                     img{
                         transform:scale(1,1);transition: all 1s ease-out;
                         width: 35vw;
                         height: auto;
                         padding: 6px;
                         border-radius: 30px;
+                        transition: .3s;
+
+                            &:hover{
+                                transform:scale(1.2,1.2);
+                            }
                     }
                 }
             }
         }
+    }
+
+    .sec3{
+        @include section-settings(100%, 100vh, url(../photo/seedling.jpg)); 
     }
 }
 
