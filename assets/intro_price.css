@@ -11,6 +11,10 @@
     background-color: #c6d3ab;
 }
 
+::selection {
+    background: #469d7e; color: white;
+}
+
 a:active {
     color:#c6d3ab;
     text-decoration: none;
@@ -24,7 +28,7 @@ a:active{
     position: fixed;
     width: 100%;
     height: 100%;
-    background: url(./photo/grandma-1-1.jpg);
+    background: url(../photo/grandma-1-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,7 +48,7 @@ article{
 .main{
     width: 100%;
     height: auto;
-    padding: 0px 20px 25px 20px;
+    padding: 30px 20px 25px 20px;
 }
 
 
