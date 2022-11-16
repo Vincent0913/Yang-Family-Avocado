@@ -1,0 +1,180 @@
+$--white: #ffffff;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'cwTeXFangSong', serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root
+{
+    overflow-x: hidden;
+    background-color: #c6d3ab;
+}
+
+::selection {
+    background: #469d7e; color: white;
+}
+
+a:active{
+    color:#669933;
+}
+
+.logo{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    width: 90px;
+    height: auto;
+    border-radius: 15px;
+    z-index: 90;
+}
+
+nav { 
+    position: fixed;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(167, 236, 211, 0.855);
+    border: #8eb665 3px solid;
+    z-index: 80;
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        li{
+            max-width: 100%;
+            height: auto;
+            transition: .3s;
+            &:hover{
+                font-weight: bold;
+                border-radius: 20px;
+                padding: 20px;
+                background-color: rgba(11, 115, 39, 0.25);
+            }
+            a{
+                font-size: 25px;
+                font-weight: bold;
+                color:rgba(11, 93, 63, 0.66);
+                text-align: center;
+                text-decoration: none;
+                transition: .3s;
+            }
+        }
+    }
+}
+
+.contact{
+    position: absolute;
+    top: 72vh;
+    right: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    z-index: 75;
+    transition: .3s;
+    &:hover{
+        transform: scale(1.2);
+    }
+    a img{
+        background-color: rgba(11, 99, 17, 0.7);
+        border-radius: 25px;
+        width: 80px;
+        height: auto;
+        transition: all 1s ease-out;
+        margin: 12px;
+    }
+}
+
+@mixin section-settings($width, $height, $bg){
+    width: $width;
+    height: $height;
+    background: $bg;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body{
+    .sec1{
+        @include section-settings(100%, 80vh, url(../photo/grandma-1-1.jpg)); 
+    }
+    .sec2{
+        background-color: $--white;
+        padding-top: 20px;
+
+        .main{
+            width: 100%;
+            height: auto;
+            padding: 30px 20px 25px 20px;
+            .title {
+                color: #669933
+            }
+        }
+        
+        article{
+            padding: 30px;
+            .product{
+                margin: 10px;
+                .product-introduce{
+                    display: flex;
+                    justify-content:center;
+                    align-items: center;
+                    padding: 20px;
+                    width: 100%;
+                    border: 6px groove rgba(118, 191, 166, 0.353);
+                    .product-words{
+                        border-left: 6px solid rgba(39, 132, 142, 0.644);
+                        background-color: #ffffff;
+                        padding: 10px;
+                        font-size: 20px;
+                        line-height: 200%;
+                        margin-left: 30px;
+                        .product-title
+                        {
+                            background-color:beige;
+                            font-size: 25px;
+                            padding: 4px 5px;
+                            margin-bottom: 10px;
+                            margin-top: 15px;
+                        }
+                        .notation {
+                            color: gray;
+                            font-weight: bold;
+                            text-decoration:underline;
+                        }
+                    }
+                }
+                
+                
+                
+                .photo{
+                    background-color: rgba(94, 172, 94, 0.579);
+                    overflow: hidden;
+                    width: 100%;
+                    height: auto;
+                    border-radius: 30px;
+                    transition: .3s;
+                    &:hover{
+                        transform:scale(1.2,1.2);
+                    }
+                    img{
+                        transform:scale(1,1);transition: all 1s ease-out;
+                        width: 35vw;
+                        height: auto;
+                        padding: 6px;
+                        border-radius: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
