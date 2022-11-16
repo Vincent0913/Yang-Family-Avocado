@@ -82,18 +82,17 @@ nav ul li a {
   display: flex;
   justify-content: end;
   z-index: 75;
-  transition: 0.3s;
-}
-.contact:hover {
-  transform: scale(1.2);
 }
 .contact a img {
   background-color: rgba(11, 99, 17, 0.7);
   border-radius: 25px;
   width: 80px;
   height: auto;
-  transition: all 1s ease-out;
+  transition: all 0.5s ease-out;
   margin: 12px;
+}
+.contact a img:hover {
+  transform: scale(1.2);
 }
 
 body .sec1 {

@@ -79,17 +79,18 @@ nav {
     display: flex;
     justify-content: end;
     z-index: 75;
-    transition: .3s;
-    &:hover{
-        transform: scale(1.2);
-    }
+    
     a img{
         background-color: rgba(11, 99, 17, 0.7);
         border-radius: 25px;
         width: 80px;
         height: auto;
-        transition: all 1s ease-out;
+        transition: all .5s ease-out;
         margin: 12px;
+
+        &:hover{
+            transform: scale(1.2);
+        }
     }
 }
 
