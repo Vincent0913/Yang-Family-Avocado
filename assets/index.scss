@@ -98,7 +98,7 @@ nav {
     width: $width;
     height: $height;
     background: $bg;
-    background-size: 100vw auto;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -106,7 +106,7 @@ nav {
 
 body{
     .sec1{
-        @include section-settings(100%, 80vh, url(../photo/grandma-1-1.jpg)); 
+        @include section-settings(100vw, 80vh, url(../photo/grandma-1-1.jpg)); 
     }
 
     .sec2{
@@ -154,7 +154,7 @@ body{
     }
 
     .sec3{
-        @include section-settings(100%, 85vh, url(../photo/seedling.jpg)); 
+        @include section-settings(100vw, 85vh, url(../photo/seedling.jpg)); 
     }
 
     .sec4{

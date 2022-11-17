@@ -96,10 +96,10 @@ nav ul li a {
 }
 
 body .sec1 {
-  width: 100%;
+  width: 100vw;
   height: 80vh;
   background: url(../photo/grandma-1-1.jpg);
-  background-size: 100vw auto;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -144,10 +144,10 @@ body .sec2 .sec2-photo img {
   border: #8eb665 3px outset;
 }
 body .sec3 {
-  width: 100%;
+  width: 100vw;
   height: 85vh;
   background: url(../photo/seedling.jpg);
-  background-size: 100vw auto;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
