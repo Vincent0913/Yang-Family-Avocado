@@ -107,6 +107,7 @@ body .sec1 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 body .sec2 {
   width: 100%;
@@ -155,6 +156,7 @@ body .sec3 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 body .sec4 {
   background-color: #ffffff;
