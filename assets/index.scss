@@ -98,7 +98,7 @@ nav {
     width: $width;
     height: $height;
     background: $bg;
-    background-size: cover;
+    background-size: 100vw auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -142,7 +142,7 @@ body{
         }
 
         .sec2-photo{
-            width: 60%;
+            width: 65vw;
             height: auto;
             img{
                 width: 100%;

@@ -99,7 +99,7 @@ body .sec1 {
   width: 100%;
   height: 80vh;
   background: url(../photo/grandma-1-1.jpg);
-  background-size: cover;
+  background-size: 100vw auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -134,7 +134,7 @@ body .sec2 article p {
   line-height: 180%;
 }
 body .sec2 .sec2-photo {
-  width: 60%;
+  width: 65vw;
   height: auto;
 }
 body .sec2 .sec2-photo img {
@@ -147,7 +147,7 @@ body .sec3 {
   width: 100%;
   height: 85vh;
   background: url(../photo/seedling.jpg);
-  background-size: cover;
+  background-size: 100vw auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
